@@ -1,0 +1,22 @@
+body {
+  background-image: url("product-images/bgtest.png");
+}
+
+.container {
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 25%;
+}
+
+form {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+}

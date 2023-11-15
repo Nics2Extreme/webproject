@@ -1,0 +1,297 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border: 0px;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #44494b;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+ }
+
+
+#btnEmpty {
+	border-radius: 20px;
+	border: 1px solid rgb(223, 73, 73);
+	background-color: rgb(223, 73, 73);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 13px 8px 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	float: right;
+}
+
+/*
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: rgb(254, 142, 51);
+    border: rgb(254, 142, 51) 1px solid;
+    color: #ffffff;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}*/
+
+.btnAddAction{
+	border-radius: 7px;
+	border: 1px solid rgb(254, 142, 51);
+	background-color: rgb(254, 142, 51);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 13px 8px 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	float: right;
+}
+
+.btnAddAction:hover {
+	background-color: #fbb76e;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+	float: left;
+	background: rgb(255, 235, 161);
+	margin: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.product-image {
+	height: 155px;
+	width: 250px;
+	background-color: #FFF;
+	border-radius: 20px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	color: #5f6668;
+	border-collapse: collapse;
+	background-color: #e3bc95;
+}
+
+.tbl-cart th {
+	background-color: rgb(254, 142, 51);
+	color:rgb(255, 255, 255);
+}
+
+
+.tbl-details {
+	color: #44494b;
+	border-collapse: collapse;
+	background-color: rgb(254, 142, 51);
+}
+
+.tbl-details th {
+	color: #FFF;
+	letter-spacing: 0.5px;
+}
+
+.tbl-details td {
+	background-color: #fee6ce;
+}
+
+.product-title {
+	font-family: "Franklin Gothic";
+	font-weight: 500;
+	font-size: x-large;
+	color: rgb(196, 102, 25);
+	margin-bottom: 20px;
+}
+
+.product-price {
+	float:left;
+	font-weight: 600;
+	font-size: medium;
+	color:#534b4b;
+}
+
+.product-status {
+	float:left;
+	font-weight: 500;
+	color: rgb(181, 75, 30);
+}
+
+.cart-action a{
+	background-color: rgb(254, 142, 51);
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px 0px 5px;
+}
+
+
+/*.product-quantity {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	border-radius: 10px;
+}*/
+
+.product-quantity{
+	background-color: rgb(255, 255, 255);
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+	float: left;
+	text-align: center;
+	color: rgb(133, 122, 122);
+	font-weight: 700;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 15px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	color: rgb(163, 151, 140);
+	font-weight: 700;
+	font-size: x-large;
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+
+.input-group{
+	margin: 1px;
+}
+
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input{
+	background-color: rgb(228, 228, 228);
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 30%;
+	border-radius: 10px;
+}
+
+/*modified input type file*/
+
+.button{
+	border-radius: 20px;
+	border: 1px solid rgb(254, 142, 51);
+	background-color: rgb(254, 142, 51);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+
+.buttoncart{
+	border-radius: 20px;
+	border: 1px solid rgb(254, 142, 51);
+	background-color: rgb(254, 142, 51);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 13;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	float:right;
+}
+
+.button:hover {
+	background-color: #fbb76e;
+}
+
+#btnEmpty:hover {
+	background-color: #fa8585;
+}
+
+.buttoncart:hover {
+	background-color: #fbb76e;
+}
+
+.titletxt{
+	font-family: "Franklin Gothic";
+	color: #44494b;
+	font-size: x-large;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+
+	.tbl-cart {
+		color: #5f6668;
+		border-collapse: collapse;
+		background-color: #e3bc95;
+		font-size: smaller;
+	}
+	
+	.tbl-cart th {
+		background-color: rgb(254, 142, 51);
+		color:rgb(255, 255, 255);
+	}
+
+	.tbody td {
+		padding-left: 1px;
+    	padding-right: 1px;
+	}
+
+}
